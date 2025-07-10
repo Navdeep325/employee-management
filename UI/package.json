@@ -1,4 +1,6 @@
 {
+  "homepage": "https://Navdeep325.github.io/employee-management",
+
   "name": "navdeep",
   "version": "1.0.0",
   "main": "main.js",
@@ -8,7 +10,10 @@
     "compile": "webpack --mode development",
     "#watch": "babel jsx  --presets @babel/react --out-dir public --watch --verbose",
     "watch": "webpack -w --config Webpack.config.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "webpack --mode production",
+"deploy": "gh-pages -d public"
+
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +22,7 @@
     "apollo-server-express": "^3.13.0",
     "eslint": "^9.14.0",
     "express": "^4.19.2",
+    "gh-pages": "^6.3.0",
     "http-proxy-middleware": "^0.21.0",
     "nodemon": "^3.1.4",
     "react-dom": "^18.3.1",
