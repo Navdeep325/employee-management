@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9ff;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    color: #333;
+    text-align: center;
+}
+h2 {
+    color: #555;
+    margin-top: 20px;
+}
+form {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"]{
+    background-image: linear-gradient(to right, #0575E6 0%, #021B79  51%, #0575E6  100%);
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    border:none;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+}
+         
+button {
+    background-image: linear-gradient(to right, #0575E6 0%, #021B79  51%, #0575E6  100%);
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    border:none;
+    cursor: pointer;
+  }
+
+button:hover {
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f9f9fc;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9fc;
+}
+.error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+.navbar {
+    padding: 10px;
+    background-image: linear-gradient(to right, #0575E6 0%, #021B79 51%, #0575E6 100%);
+    color: #fff;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+.mainContainer{
+display: flex
+}
+.wrapper{
+    padding: 20px;
+    flex: 1 
+}
+.delete-button {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.space-line{
+    margin: 0 8px;
+}
